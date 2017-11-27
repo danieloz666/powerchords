@@ -27,10 +27,12 @@ export class TipoAutoComponent implements OnInit {
         tipoauto2.nombre = "Jeep";
 
         this.tipoAutos.push(tipoauto1);
-        this.tipoAutos.push(tipoauto2);       
+        this.tipoAutos.push(tipoauto2);    
+        //if lectura {lectura exitosa}else{error al leer}   
     }
 
     grabar(): void {
+        //if valido {grabar bd; mensaje se grabo}else{no se grabo}
         // TO DO Alexis: colocar el codigo de grabde la variable this.tipoAuto en la BD
     }
 
